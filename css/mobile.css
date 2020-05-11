@@ -1,0 +1,169 @@
+#about .about-content .image img {
+   max-width: 700px;
+}
+
+#about .about-content .headline h2 {
+   font-size: 50px;
+}
+
+#services .items {
+   display: block;
+   padding: 1rem;
+   width: 70%;
+   margin: auto;
+}
+
+#services .items .item {
+   text-align: left;
+   border-bottom: 2px solid black;
+   border-right: none;
+}
+
+#services .items > *:last-child {
+   border-bottom: none;
+   padding-left: 1rem;
+}
+
+/* #services .item li {
+   list-style: none;
+} */
+
+#halls .halls-container {
+   grid-template-columns: repeat(2, 1fr);
+}
+
+#halls .halls-container #third {
+   left: 50%;   
+}
+
+#halls .hall-card .hall-btn {
+   width: 100%;
+}
+
+#halls .halls-container img {
+   /* width: 100%; */
+   height: 200px;
+}
+
+#halls .halls-container .hall-card:hover .img-description {
+    display: none;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+   #navbar {
+      height: 70px;
+      transition: top 0.3s;
+   }
+   #navbar img {
+      width: 30%;
+   }
+   #navbar .number {
+      display: none;
+   }
+   #navbar .menu-wrap .hamburger {
+      margin-top: -0.3rem;
+   }
+   #navbar .menu-wrap .menu > div {
+      width: 300vw;
+      height: 300vw;
+   }
+   #about {
+      height: 83vh;
+   }
+   #about .about-content .image img {
+      max-width: 320px;
+      margin-top: -8rem;
+   }
+   #about .about-content .headline h2 {
+      font-size: 25px;
+      margin-top: 1rem;
+   }
+   #about .about-content .button {
+      display: none;
+   }
+   #services .container {
+      padding: 0;
+      margin-top: -40px;
+      padding: 60px 0;
+   }
+   #services .items h2 {
+      text-align: center;
+   }
+   #services .items h2 {
+      font-size: 1.5rem;
+   }
+   #services .items li, 
+   #services .items p {
+      font-size: 1.1rem;
+   }
+   #services .items {
+      margin: 0;
+      width: 100%;
+   }
+   #halls .halls-container {
+      grid-template-columns: 1fr;
+      margin: auto;
+   }
+   #contact .contacts  {
+      display: inline-block;
+   }
+   #contact .contacts .map {
+      height: 300px;
+      margin: 0 0.5rem;
+      /* width: 100%; */
+   }
+   #halls .halls-container #third {
+      left: 0%;   
+   }
+   /* #contact .contact-boxes .contact-info {
+      margin: 2rem 0 2rem 1rem; */
+   #contact .photos img {
+      margin: 0.2rem 0.2rem;
+    }
+   #contact .contact-boxes .contact-info {
+      flex-flow: column;
+      margin: 2rem 0;
+    }
+    #contact .contact-boxes .contact-info div {
+       padding: 1rem;
+    }
+   .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      height: 60px;
+    }
+    .footer .footer_button {
+      display: inline-block;
+      /* color: white; */
+      background: #222;
+      border-radius: 4px;
+      border: none;
+      width: 280px;
+      height: 50px;
+      margin-top: 5px;
+      padding-top: 10px;   
+      font-size: 2rem;
+    }
+    .footer .footer_button:hover {
+      cursor: pointer;
+    }
+
+    .footer .footer_button:focus {
+       outline: 0;
+    }
+
+    .footer .footer_button a {
+       color: inherit;
+    }
+    
+    #main-footer {
+       display: none;
+    }
+}
+

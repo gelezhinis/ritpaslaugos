@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+    rel="stylesheet"
+    media="screen and (max-width: 768px)"
+    href="css/mobile.css"
+    />
+    <link
+    rel="stylesheet"
+    media="screen and (min-width: 1100px)"
+    href="css/widescreen.css"
+    />
+    <link 
+    rel="stylesheet" 
+    media="screen and (max-height: 450px)" 
+    href="css/mobile-landscape.css" 
+    />
+    <link 
+    rel="stylesheet" 
+    media="screen and (max-height: 768px)" 
+    href="css/tablet-landscape.css" 
+    />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" href="favicon.ico" />
+    <title>Ramybė | Ritualinės Paslaugos</title>
+  </head>
+  <body oncontextmenu="return false;">
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+      <div class="number">
+        <h2>8 675 77755</h2>
+      </div>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="#about">Į Pradžią</a></li>
+                <li><a href="#services">Paslaugos</a></li>
+                <li><a href="#halls">Šarvojimo Salės</a></li>
+                <li><a href="#contact">Kontaktai</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header: About -->
+    <section id="about">
+      <div class="about-content">
+        <div class="image">
+          <img src="img/rp.png" alt="rp" />
+        </div>
+        <div class="headline">
+          <h2 class="m-heading">Visą parą</h2>
+        </div>
+        <div class="button">
+          <a href="tel:0037067577755">8 675 77755</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Services -->
+    <section id="services" class="bg-light py-3">
+      <div class="container">
+        <div class="items">
+          <div class="item">
+              <h2 class="m-heading">Paslaugos</h2>
+               <ul>
+                 <li>Kremavimas, platus urnų pasirinkimas</li>
+                 <li>Velionio paėmimas iš gydymo įstaigos ar namų</li>
+                 <li>Sanitarinis kūno paruošimas, aprengimas</li>
+                 <li>Platus karstų, kryžių ir drabužių pasirinkimas</li>
+                 <li>Gėlių papuošimų ir vainikų gamyba</li>
+                 <li>Šarvojimo salių nuoma Alytuje ir rajone</li>
+                 <li>Karsto nešėjai, duobkasiai</li>
+                 <li>Laidotuvių katafalko nuoma</li>
+               </ul>
+          </div>
+          <div class="item">
+              <h2 class="m-heading">Kremavimas</h2>
+              <p class="p-lead">Kremavimo paslaugas teikiame ne vienerius metus. Mums svarbu, kad būtų išpildyta tiek velionio, tiek artimųjų valia ir pageidavimai, o visa procedūra vyktų pagarbiai. Mūsų rūpestis – gražiai išlydėti žmogų į paskutinę kelionę, suteikiant kokybiškas paslaugas už prieinamą kainą. Laidojimo procesą su kremavimu galime suorganizuoti per  mažiau nei 24 valandas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Halls -->
+    <section id="halls" class="py-2">
+      <div class="container">
+        <h1 class="m-heading text-center">Šarvojimo Salės <br><br> Alytuje</h1>
+        <div class="halls-container">
+          <article class="hall-card">
+            <a href="img/halls/1/hall1.jpg" data-lightbox="gallery1" data-title="35 vietos, Rūtų g."><p class="img-description p-lead">35 vietos <br/> Rūtų g.</p><img src="img/halls/1/hall1.jpg" alt="hall1"></a>
+            <a href="img/halls/1/hall1-1.jpg" data-lightbox="gallery1" data-title="35 vietos, Rūtų g."></a>
+            <a href="img/halls/1/hall1-2.jpg" data-lightbox="gallery1" data-title="35 vietos, Rūtų g."></a>
+            <div>
+
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'
+              onclick="navigate(54.38902, 24.042795)">
+                Vykti
+              </button>
+
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/2/hall2.jpg" data-lightbox="gallery2" data-title="42 vietos, Maironio g."><p class="img-description p-lead">42 vietos <br/> Maironio g.</p><img src="img/halls/2/hall2.jpg" alt="hall2"></a>
+            <a href="img/halls/2/hall2-1.jpg" data-lightbox="gallery2" data-title="42 vietos, Maironio g."></a>
+            <a href="img/halls/2/hall2-2.jpg" data-lightbox="gallery2" data-title="42 vietos, Maironio g."></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card" id="third">
+            <a href="img/halls/3/hall3.jpg" data-lightbox="gallery3" data-title="60 vietų, Pulko g."><p class="img-description p-lead">60 vietų <br/> Pulko g.</p><img src="img/halls/3/hall3.jpg" alt="hall3"></a>
+            <a href="img/halls/3/hall3-1.jpg" data-lightbox="gallery3" data-title="60 vietų, Pulko g."></a>
+            <a href="img/halls/3/hall3-2.jpg" data-lightbox="gallery3" data-title="60 vietų, Pulko g."></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+        </div>
+        <br>
+        <h1 class=" m-heading text-center">Alytaus Rajone</h1>
+        <div class="halls-container">
+          <article class="hall-card">
+            <a href="img/halls/4/hall4.jpg" data-lightbox="gallery4" data-title="35 vietos, Balbieriškis"><p class="img-description p-lead">35 vietos <br/> Balbieriškis</p><img src="img/halls/4/hall4.jpg" alt="hall4"></a>
+            <a href="img/halls/4/hall4-1.jpg" data-lightbox="gallery4" data-title="35 vietos, Balbieriškis"></a>
+            <a href="img/halls/4/hall4-2.jpg" data-lightbox="gallery4" data-title="35 vietos, Balbieriškis"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/5/hall5.jpg" data-lightbox="gallery5" data-title="25 vietos, Makniūnai"><p class="img-description p-lead">25 vietos <br/> Makniūnai</p><img src="img/halls/5/hall5.jpg" alt="hall5"></a>
+            <a href="img/halls/5/hall5-1.jpg" data-lightbox="gallery5" data-title="25 vietos, Makniūnai"></a>
+            <a href="img/halls/5/hall5-2.jpg" data-lightbox="gallery5" data-title="25 vietos, Makniūnai"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/6/hall6.jpg" data-lightbox="gallery6" data-title="50 vietų, Seirijai"><p class="img-description p-lead">50 vietų <br/> Seirijai</p><img src="img/halls/6/hall6.jpg" alt="hall6"></a>
+            <a href="img/halls/6/hall6-1.jpg" data-lightbox="gallery6" data-title="50 vietų, Seirijai"></a>
+            <a href="img/halls/6/hall6-2.jpg" data-lightbox="gallery6" data-title="50 vietų, Seirijai"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/7/hall7.jpg" data-lightbox="gallery7" data-title="30 vietų, Simnas"><p class="img-description p-lead">30 vietų <br/> Simnas</p><img src="img/halls/7/hall7.jpg" alt="hall7"></a>
+            <a href="img/halls/7/hall7-1.jpg" data-lightbox="gallery7" data-title="30 vietų, Simnas"></a>
+            <a href="img/halls/7/hall7-2.jpg" data-lightbox="gallery7" data-title="30 vietų, Simnas"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/8/hall8.jpg" data-lightbox="gallery8" data-title="44 vietos, Daugai"><p class="img-description p-lead">44 vietos <br/> Daugai</p><img src="img/halls/8/hall8.jpg" alt="hall8"></a>
+            <a href="img/halls/8/hall8-1.jpg" data-lightbox="gallery8" data-title="44 vietos, Daugai"></a>
+            <a href="img/halls/8/hall8-2.jpg" data-lightbox="gallery8" data-title="44 vietos, Daugai"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+          <article class="hall-card">
+            <a href="img/halls/9/hall9.jpg" data-lightbox="gallery9" data-title="100 vietų, Lazdijai"><p class="img-description p-lead">100 vietų <br/> Lazdijai</p><img src="img/halls/9/hall9.jpg" alt="hall9"></a>
+            <a href="img/halls/9/hall9-1.jpg" data-lightbox="gallery9" data-title="100 vietų, Lazdijai"></a>
+            <a href="img/halls/9/hall9-2.jpg" data-lightbox="gallery9" data-title="100 vietų, Lazdijai"></a>
+            <div>
+              <button type="button" class="hall-btn" data-toggle="modal" data-target="#myModal" data-lat='54.38902' data-lng='24.042795'>
+                Kaip Rasti
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+       <!-- Modal -->
+      <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+              </div>
+              <div class="row">
+                <div class="col-md-12 modal_body_map">
+                  <div class="location-map" id="location-map">
+                    <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact" class="bg-light py-2">
+      <!-- <h1 class="m-heading text-center">Mūsų Kontaktai</h1> -->
+      <div class="contact-boxes">
+        <!-- <div class="contact-info">
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <p class="pnumber p-lead">+370 (675) 77755</p>
+          </div>
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <p class="p-lead">ritpaslaugos@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <p class="p-lead">Ligoninės g. 12, Alytus <br/> LT-62119, Lietuva</p>
+          </div>
+        </div> -->
+      </div>
+      <div class="contacts">
+        <div class="map"></div>
+        <div class="photos">
+          <img src="img/contact2.jpg" alt="img2">
+          <div class="contact-info">
+            <div>
+              <!-- <i class="fas fa-phone fa-2x"></i> -->
+              <p class="pnumber p-lead">+370 (675) 77755</p>
+            </div>
+            <div>
+              <!-- <i class="fas fa-envelope fa-2x"></i> -->
+              <p class="p-lead">ritpaslaugos@gmail.com</p>
+            </div>
+            <div>
+              <!-- <i class="fas fa-address-card fa-2x"></i> -->
+              <p class="p-lead">Ligoninės g. 12, Alytus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer_button">
+          <a href="tel:0037067577755">8 675 77755</a>
+          <i class="fas fa-phone fa-1x"></i>
+        </div>
+    </div>
+    <footer id="main-footer" class="text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2020, UAB Ramybė, Visos Teisės Saugomos</p>
+      </div>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!-- Local js file -->
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- Google Maps -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJwo8YepWCMYERu0kyI6uo_nPirs3ywmU&callback=initMap"
+    async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
