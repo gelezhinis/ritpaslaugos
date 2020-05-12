@@ -51,7 +51,8 @@ img {
   cursor: pointer;
 }
 
-.btn:focus {
+.btn:focus,
+.hall-btn:focus {
   outline: 0;
 }
 
@@ -101,7 +102,6 @@ img {
   padding: 1rem;
   height: 80px;
   width: 100%;
-  /* transition: top 0.3s; */
 }
 
 #navbar img {
@@ -110,8 +110,8 @@ img {
   margin-top: -12px;
 }
 
-#navbar .number {
-  margin-bottom: 2rem;
+#navbar .number h2 {
+  font-size: 2rem;
 }
 
 #navbar .menu-wrap {
@@ -211,7 +211,7 @@ img {
   justify-content: center;
 }
 #navbar .menu-wrap .menu > div {
-  background: rgba(24, 39, 51, 0.9);
+  background: rgba(76, 79, 79, 0.9);
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
@@ -243,7 +243,7 @@ img {
   transition: color 0.4s ease;
 }
 #navbar .menu-wrap .menu > div > div > ul > li > a:hover {
-  color: #777;
+  color: #999;
 }
 
 /* Section: About */
@@ -302,6 +302,7 @@ img {
 #services .container {
   padding: 150px 0;
 }
+
 /* #services .container {
   padding: 120px 0;
 } */
@@ -364,6 +365,10 @@ img {
   opacity: 1;
 }
 
+#halls .halls-container .mobile {
+  display: none;
+}
+
 #halls .halls-container .hall-card {
   position: relative;
   overflow: hidden;
@@ -381,14 +386,13 @@ img {
   font-size: 2rem;;
   visibility: hidden;
   opacity: 0;
-  transition: opacity .2s, visibility .2s;
+  transition: opacity .5s, visibility .5s;
 }
 
 #halls .halls-container .hall-card:hover img {
   opacity: 0.3;
   cursor: pointer;
-  /* transform: scale(1.1); */
-  transition: all 1s ease;
+  transition: all 2s ease;
 }
 
 #halls .halls-container .hall-card:hover .img-description {
