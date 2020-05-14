@@ -98,7 +98,7 @@ img {
   top: 0;
   background: black;
   color: white;
-  z-index: 2;
+  z-index: 1;
   padding: 1rem;
   height: 80px;
   width: 100%;
@@ -132,7 +132,8 @@ img {
   opacity: 0;
 }
 #navbar .menu-wrap .hamburger {
-  position: absolute;
+  /* position: absolute; */
+  position: sticky;
   top: 0;
   right: 0;
   z-index: 2;
@@ -427,9 +428,10 @@ img {
   text-align: center; 
 }
 
-#contact .photos img {
+#contact .contacts .photos img {
   margin: 0.2rem 3rem;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 
 #contact .contact-boxes .contact-info {

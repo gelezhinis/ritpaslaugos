@@ -73,7 +73,7 @@ function navigate(lat, lng) {
 // Sticky Navbar
 window.addEventListener('scroll', function() {
    if(window.scrollY > 85) {
-      this.document.querySelector('#navbar').style.opacity = 0.8;
+      this.document.querySelector('#navbar').style.opacity = 0.9;
    } else {
       this.document.querySelector('#navbar').style.opacity = 1;
    }
