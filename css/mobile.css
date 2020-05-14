@@ -1,4 +1,5 @@
 #navbar > * {
+   transform: translateZ();
    -webkit-transform: translateZ(0);
 }
 
