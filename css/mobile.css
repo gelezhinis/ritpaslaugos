@@ -1,16 +1,8 @@
 /* Solution for dissapearing navbar */
 
-#navbar {
-   transform: translate3d(0,0,0);
-}
- 
 #navbar--fixed {
    top: 0;
    position: fixed;
-}
-
-#navbar .menu-wrap {
-   transform: translate3d(0,0,0);
 }
 
 /*  */
