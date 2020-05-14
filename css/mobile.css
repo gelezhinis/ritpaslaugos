@@ -52,10 +52,6 @@
    display: inline-block;
 }
 
-/* #halls .halls-container .hall-card {
-   z-index: 0;
-} */
-
 #halls .halls-container img {
    height: 200px;
 }
@@ -72,9 +68,6 @@
    height: 200px;
 }
 
-/* #contact .contacts .map {
-   z-index: 0;
-} */
 
 /* Smartphones */
 @media(max-width: 500px) {
