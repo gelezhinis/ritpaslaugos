@@ -48,6 +48,10 @@
    display: inline-block;
 }
 
+#halls .halls-container .hall-card {
+   z-index: 0;
+}
+
 #halls .halls-container img {
    height: 200px;
 }
@@ -58,6 +62,10 @@
 
 #halls .modal {
    display: none;
+}
+
+#contact .contacts .map {
+   z-index: 0;
 }
 
 /* Smartphones */
