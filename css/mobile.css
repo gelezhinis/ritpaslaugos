@@ -72,7 +72,6 @@
 @media(max-width: 500px) {
    #navbar {
       height: 70px;
-      transition: top 0.3s;
    }
    #navbar img {
       width: 30%;
