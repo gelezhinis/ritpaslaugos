@@ -94,12 +94,6 @@ $('#navbar a, .btn').on('click', function(event) {
 
 // Hide dropdown menu
 
-// $(".menu a").on("click", function() {
-//    setTimeout(function() {
-//      $(".toggler").click();
-//    }, 200)
-//  });
-
 $(".menu").on("click", function() {
     $(".toggler").click();
    });
