@@ -301,7 +301,7 @@ img {
 
 /* Section: Services */
 #services .container {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 /* #services .container {
@@ -323,7 +323,7 @@ img {
 
 #services .items > *:last-child {
   border-right: none;
-  padding-left: 5rem;
+  padding-left: 4rem;
 }
 
 #services .item li {
@@ -416,6 +416,24 @@ img {
 
 #contact .contacts .map {
   margin-left: 1rem;
+}
+
+/* #contact .map-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 8px;
+}
+
+#contact .map-btn:focus {
+  outline: 0;
+} */
+
+#contact button.map-btn {
+  display: none;
 }
 
 #contact .map, #contact .photos {

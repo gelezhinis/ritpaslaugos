@@ -12,7 +12,7 @@
    padding: 0.3rem;   
 }
 #services .container {
-   margin: -200px 0;
+   margin: -150px 0;
 }
 #services .items h2 {
    font-size: 1.5rem;
@@ -22,7 +22,20 @@
    font-size: 1.1rem;
 }
 #services .items {
-   margin: 0;
+   margin: auto;
+}
+#contact .contacts .map-btn.tablet {
+   display: block;
+   width: 100%;
+   height: 40px;
+   font-size: 1.4rem;
+   font-family: inherit;
+   margin: 10px 0;
+   border: 0;
+   border-radius: 8px;
+}
+#contact .contacts .map-btn.tablet:focus {
+   outline: 0;
 }
 /* #halls .halls-container img {
    height: 150px;

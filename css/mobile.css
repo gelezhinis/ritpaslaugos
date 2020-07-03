@@ -67,6 +67,19 @@
 #contact .contacts .photos img {
    height: 200px;
 }
+#contact .contacts .map-btn.tablet {
+   display: block;
+   width: 100%;
+   height: 40px;
+   font-size: 1.4rem;
+   font-family: inherit;
+   margin: 10px 0;
+   border: 0;
+   border-radius: 8px;
+}
+#contact .contacts .map-btn.tablet:focus {
+   outline: 0;
+}
 
 
 /* Smartphones */
@@ -92,7 +105,7 @@
    }
    #about .about-content .image img {
       max-width: 320px;
-      margin-top: -8rem;
+      /* margin-top: -8rem; */
    }
    #about .about-content .headline h2 {
       font-size: 25px;
@@ -104,6 +117,7 @@
    #services .container {
       padding: 0;
       margin-top: -60px;
+      margin-bottom: -60px;
       padding: 60px 0;
    }
    #services .items h2 {
@@ -137,14 +151,31 @@
    }
    #contact .photos img {
       margin: 0.2rem 0.2rem;
-    }
+   }
+   #contact .contacts .map-btn.tablet {
+      display: none;
+   }
+   #contact .contacts .map-btn.mobile {
+      display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 1.4rem;
+      font-family: inherit;
+      margin: 10px 0;
+      border: 0;
+      border-radius: 8px;
+   }
+   
+   #contact .map-btn:focus {
+      outline: 0;
+   }
    #contact .contact-boxes .contact-info {
       flex-flow: column;
       margin: 2rem 0;
-    }
-    #contact .contact-boxes .contact-info div {
-       padding: 1rem;
-    }
+   }
+   #contact .contact-boxes .contact-info div {
+      padding: 1rem;
+   }
    .footer {
       position: fixed;
       left: 0;
@@ -154,8 +185,8 @@
       color: white;
       text-align: center;
       height: 60px;
-    }
-    .footer .footer_button {
+   }
+   .footer .footer_button {
       display: inline-block;
       /* color: white; */
       background: #222;
@@ -166,21 +197,22 @@
       margin-top: 5px;
       padding-top: 10px;   
       font-size: 2rem;
-    }
-    .footer .footer_button:hover {
+   }
+   .footer .footer_button:hover {
       cursor: pointer;
-    }
+   }
 
-    .footer .footer_button:focus {
+   .footer .footer_button:focus {
        outline: 0;
-    }
+   }
 
-    .footer .footer_button a {
-       color: inherit;
-    }
+   .footer .footer_button a {
+       color: white;
+       font-weight: bold;
+   }
     
-    #main-footer {
+   #main-footer {
        display: none;
-    }
+   }
 }
 
